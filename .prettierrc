@@ -1,0 +1,18 @@
+{
+  "useTabs": false,  // 缩进不使用tab，使用空格
+  "tabWidth": 2,  // 缩进字节数
+  "printWidth": 80,  // 超过最大值换行
+  "tabs":false,   // 用制表符而不是空格来缩进行。
+  "semicolons":true,  // 在语句的末尾打印分号。
+  "quotes": false,  // 使用单引号而不是双引号。
+  "singleQuote": true,  // 使用单引号代替双引号
+  "trailingComma": "es5",  /*  在对象或数组最后一个元素后面是否加逗号（在ES5中加尾逗号）。TypeScript的类型参数中没有尾随逗号。
+  none 没有逗号 / all
+  */
+  "bracketSpacing": true,  // 在对象，数组括号与文字之间加空格 "{ foo: bar }"
+  "bracketLine": false, //将多行HTML (HTML, JSX, Vue, Angular)元素的>放在最后一行，而不是单独放在下一行(这不适用于自闭元素)。
+  "requirePragma": false,  /* Prettier可以将自己限制为只格式化文件顶部包含特殊注释(称为pragma)的文件。这在逐步将大型的、无格式的代码库转换为Prettier时非常有用。 */
+  "insertPragma": false,  /* Prettier可以在文件的顶部插入一个特殊的@format标记，表示该文件已被Prettier格式化。当与——requirements -pragma选项一起使用时，这种方法可以很好地工作。如果在文件的顶部已经有了一个docblock，那么这个选项将用@format标记为它添加一个换行符。 */
+  "semi": true,  // 句末添加分号
+  "arrowParens": "avoid"  // //  (x) => {} 箭头函数参数只有一个时是否要有小括号。avoid：省略括号
+}
